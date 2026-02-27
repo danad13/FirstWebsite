@@ -1,0 +1,167 @@
+* {
+/*	outline: 1px solid red;*/
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, monospace;
+  margin: 0;
+}
+
+.header {
+	background-color: #1F2937;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 150px;
+}
+.headlogo {
+	color: #F9FAF8;
+	font-size: 24px;
+	font-weight: 900;
+}
+.links {
+	width: 510px;
+}
+
+.intro {
+	background-color: #1F2937;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 70px 150px;
+}
+
+.intro-left {
+	width: 600px;
+}
+.title-intro {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+.introtxt {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+.intro-butt {
+	padding: 0 32px;
+	background-color: #3886F6;
+	border: 5px solid #3886F6;
+	border-radius: 5px;
+	color: white;
+	font-weight: 800;
+	height: 35px;
+}
+.intro-right {
+	width: 600px;
+	background-color: #B6B6B6;
+	height: 255px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.intro-image {
+	color: white;
+}
+
+.title-info {
+	text-align: center;
+	margin: 50px;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+}
+
+.info-imgs {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+.infoimg {
+	width: 200px;
+	margin-bottom: 100px;
+}
+.image {
+	width: 200px;
+	height: 200px;
+	border: 5px solid #3886F6;
+	border-radius: 15px;
+}
+.text {
+	text-align: center;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 0;
+}
+.quote-txt {
+	width: 800px;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+}
+.author {
+	width: 600px;
+	text-align: right;
+}
+
+.signup {
+	display: flex;
+	justify-content: center;
+}
+
+.signup-cont {
+	width: 900px;
+	margin: 100px 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: #3886F6;
+	padding: 50px 0;
+}
+.sign-left {
+	width: 550px;
+}
+.sign-title {
+	font-size: 22px;
+	font-weight: 900;
+	color: white;
+}
+.sign-text {
+	font-size: 13px;
+	color: white;
+}
+.sign-butt {
+	padding: 0 32px;
+	background-color: #3886F6;
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+	font-weight: 800;
+	height: 35px;
+	align-self: center;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+	padding: 40px 0;
+	background-color: #1F2937;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+}
+a {
+	text-decoration:none;
+	color: white;
+}
